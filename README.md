@@ -3,10 +3,14 @@
 
 **Feel free to contribute.**
 
-TODO (spin up a VM):
+TODO:
+
+* Allow for arguments in certain files (e.g., echo)
 
 * chmod
 
 * chown
 
 * chroot
+
+* Etc.
