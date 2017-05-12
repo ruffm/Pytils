@@ -1,4 +1,3 @@
-import sys
 import platform
 
 print "Operating System: " + platform.system()
