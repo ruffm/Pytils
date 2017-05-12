@@ -8,6 +8,7 @@ if os.name == 'posix':
     if os.path.isdir(directory):
         pwd = os.cwd()
         absolutePath = os.path.abspath(pwd + "/" + directory)
+        os.chdir(absolutePath)
     else:
         print("Not a directory.")
 
