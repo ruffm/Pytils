@@ -2,3 +2,11 @@
 ###### For fun
 
 **Feel free to contribute.**
+
+TODO (spin up a VM):
+
+* chmod
+
+* chown
+
+* chroot
