@@ -9,6 +9,7 @@ if os.name == 'posix':
         pwd = os.cwd()
         absolutePath = os.path.abspath(pwd + "/" + directory)
         os.chdir(absolutePath)
+        os.system("/bin/bash")
     else:
         print("Not a directory.")
 
@@ -19,6 +20,7 @@ elif platform.system() == 'Windows':
         absolutePath = os.path.abspath(pwd + "\\" + directory)
         # print absolutePath # test print of absolutePath
         os.chdir(absolutePath)
+        os.system("cmd.exe")
     else:
         print("Not a directory.")
 
