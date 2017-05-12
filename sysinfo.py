@@ -8,4 +8,3 @@ print "Network Name: " + platform.node()
 print "Processor Type: " + platform.machine()
 print "Processor Details: " + platform.processor()
 print "Python Version: " + platform.python_version()
-
